@@ -9,13 +9,26 @@
 /* Begin PBXBuildFile section */
 		92A4CE4B2AD518F30006BCE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A4CE4A2AD518F30006BCE7 /* AppDelegate.swift */; };
 		92A4CE4D2AD518F30006BCE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A4CE4C2AD518F30006BCE7 /* SceneDelegate.swift */; };
-		92A4CE4F2AD518F30006BCE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A4CE4E2AD518F30006BCE7 /* ViewController.swift */; };
 		92A4CE522AD518F30006BCE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A4CE502AD518F30006BCE7 /* Main.storyboard */; };
 		92A4CE542AD518F50006BCE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A4CE532AD518F50006BCE7 /* Assets.xcassets */; };
 		92A4CE572AD518F50006BCE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A4CE552AD518F50006BCE7 /* LaunchScreen.storyboard */; };
 		92A4CE622AD518F50006BCE7 /* SqLIteDemoProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A4CE612AD518F50006BCE7 /* SqLIteDemoProjectTests.swift */; };
 		92A4CE6C2AD518F50006BCE7 /* SqLIteDemoProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A4CE6B2AD518F50006BCE7 /* SqLIteDemoProjectUITests.swift */; };
 		92A4CE6E2AD518F50006BCE7 /* SqLIteDemoProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A4CE6D2AD518F50006BCE7 /* SqLIteDemoProjectUITestsLaunchTests.swift */; };
+		92A4CE802AD51B600006BCE7 /* MainVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A4CE7F2AD51B600006BCE7 /* MainVc.swift */; };
+		92A4CE822AD51B6E0006BCE7 /* PopUpVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A4CE812AD51B6E0006BCE7 /* PopUpVc.swift */; };
+		92A4CE852AD51CE70006BCE7 /* UserDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A4CE842AD51CE70006BCE7 /* UserDataCell.swift */; };
+		92EB8C032AD51FE200AFE97D /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EB8C022AD51FE200AFE97D /* DataBaseManager.swift */; };
+		92EB8C062AD521B200AFE97D /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EB8C052AD521B200AFE97D /* UserModel.swift */; };
+		92EB8C182AD528C800AFE97D /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EB8C0D2AD528C500AFE97D /* FMDatabasePool.m */; };
+		92EB8C192AD528C800AFE97D /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EB8C102AD528C600AFE97D /* FMDatabase.m */; };
+		92EB8C1A2AD528C800AFE97D /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EB8C132AD528C700AFE97D /* FMDatabaseQueue.m */; };
+		92EB8C1B2AD528C800AFE97D /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EB8C142AD528C700AFE97D /* FMResultSet.m */; };
+		92EB8C1C2AD528C800AFE97D /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EB8C152AD528C800AFE97D /* FMDatabaseAdditions.m */; };
+		92EB8C1E2AD5295D00AFE97D /* DataBaseUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EB8C1D2AD5295D00AFE97D /* DataBaseUtils.swift */; };
+		92EB8C222AD539E800AFE97D /* DemoDataBase.db in Resources */ = {isa = PBXBuildFile; fileRef = 92EB8C212AD539E800AFE97D /* DemoDataBase.db */; };
+		92EB8C262AD54AEE00AFE97D /* uiViewController+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EB8C252AD54AEE00AFE97D /* uiViewController+Extention.swift */; };
+		92EB8C282AD551A300AFE97D /* protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EB8C272AD551A300AFE97D /* protocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +52,6 @@
 		92A4CE472AD518F30006BCE7 /* SqLIteDemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SqLIteDemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A4CE4A2AD518F30006BCE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92A4CE4C2AD518F30006BCE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		92A4CE4E2AD518F30006BCE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		92A4CE512AD518F30006BCE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92A4CE532AD518F50006BCE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92A4CE562AD518F50006BCE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +61,27 @@
 		92A4CE672AD518F50006BCE7 /* SqLIteDemoProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SqLIteDemoProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A4CE6B2AD518F50006BCE7 /* SqLIteDemoProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqLIteDemoProjectUITests.swift; sourceTree = "<group>"; };
 		92A4CE6D2AD518F50006BCE7 /* SqLIteDemoProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqLIteDemoProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		92A4CE7F2AD51B600006BCE7 /* MainVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVc.swift; sourceTree = "<group>"; };
+		92A4CE812AD51B6E0006BCE7 /* PopUpVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpVc.swift; sourceTree = "<group>"; };
+		92A4CE842AD51CE70006BCE7 /* UserDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataCell.swift; sourceTree = "<group>"; };
+		92EB8C022AD51FE200AFE97D /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
+		92EB8C052AD521B200AFE97D /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		92EB8C0C2AD528C400AFE97D /* SqLIteDemoProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SqLIteDemoProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		92EB8C0D2AD528C500AFE97D /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		92EB8C0E2AD528C500AFE97D /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		92EB8C0F2AD528C500AFE97D /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		92EB8C102AD528C600AFE97D /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		92EB8C112AD528C600AFE97D /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		92EB8C122AD528C600AFE97D /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		92EB8C132AD528C700AFE97D /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		92EB8C142AD528C700AFE97D /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		92EB8C152AD528C800AFE97D /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		92EB8C162AD528C800AFE97D /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		92EB8C172AD528C800AFE97D /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		92EB8C1D2AD5295D00AFE97D /* DataBaseUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseUtils.swift; sourceTree = "<group>"; };
+		92EB8C212AD539E800AFE97D /* DemoDataBase.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = DemoDataBase.db; sourceTree = "<group>"; };
+		92EB8C252AD54AEE00AFE97D /* uiViewController+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "uiViewController+Extention.swift"; sourceTree = "<group>"; };
+		92EB8C272AD551A300AFE97D /* protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +132,12 @@
 		92A4CE492AD518F30006BCE7 /* SqLIteDemoProject */ = {
 			isa = PBXGroup;
 			children = (
-				92A4CE4A2AD518F30006BCE7 /* AppDelegate.swift */,
-				92A4CE4C2AD518F30006BCE7 /* SceneDelegate.swift */,
-				92A4CE4E2AD518F30006BCE7 /* ViewController.swift */,
-				92A4CE502AD518F30006BCE7 /* Main.storyboard */,
+				92A4CE7E2AD519D20006BCE7 /* Application */,
+				92EB8C232AD54ABF00AFE97D /* Utils */,
+				92A4CE7C2AD519C80006BCE7 /* Model */,
+				92A4CE7B2AD519C60006BCE7 /* Controller */,
+				92A4CE7A2AD519C30006BCE7 /* View */,
 				92A4CE532AD518F50006BCE7 /* Assets.xcassets */,
-				92A4CE552AD518F50006BCE7 /* LaunchScreen.storyboard */,
 				92A4CE582AD518F50006BCE7 /* Info.plist */,
 			);
 			path = SqLIteDemoProject;
@@ -125,6 +158,122 @@
 				92A4CE6D2AD518F50006BCE7 /* SqLIteDemoProjectUITestsLaunchTests.swift */,
 			);
 			path = SqLIteDemoProjectUITests;
+			sourceTree = "<group>";
+		};
+		92A4CE7A2AD519C30006BCE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92A4CE552AD518F50006BCE7 /* LaunchScreen.storyboard */,
+				92A4CE502AD518F30006BCE7 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92A4CE7B2AD519C60006BCE7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92EB8BFF2AD51F9700AFE97D /* ViewController */,
+				92A4CE832AD51CAD0006BCE7 /* CellVc */,
+				92EB8C002AD51FAB00AFE97D /* DataBaseFiles */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		92A4CE7C2AD519C80006BCE7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92EB8C052AD521B200AFE97D /* UserModel.swift */,
+				92EB8C272AD551A300AFE97D /* protocol.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92A4CE7E2AD519D20006BCE7 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				92A4CE4A2AD518F30006BCE7 /* AppDelegate.swift */,
+				92A4CE4C2AD518F30006BCE7 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		92A4CE832AD51CAD0006BCE7 /* CellVc */ = {
+			isa = PBXGroup;
+			children = (
+				92A4CE842AD51CE70006BCE7 /* UserDataCell.swift */,
+			);
+			path = CellVc;
+			sourceTree = "<group>";
+		};
+		92EB8BFF2AD51F9700AFE97D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				92A4CE7F2AD51B600006BCE7 /* MainVc.swift */,
+				92A4CE812AD51B6E0006BCE7 /* PopUpVc.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		92EB8C002AD51FAB00AFE97D /* DataBaseFiles */ = {
+			isa = PBXGroup;
+			children = (
+				92EB8C0B2AD5289000AFE97D /* FMDB */,
+				92EB8C042AD5206700AFE97D /* SqliteDb */,
+				92EB8C012AD51FBA00AFE97D /* DatabaseManager */,
+			);
+			path = DataBaseFiles;
+			sourceTree = "<group>";
+		};
+		92EB8C012AD51FBA00AFE97D /* DatabaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				92EB8C022AD51FE200AFE97D /* DataBaseManager.swift */,
+				92EB8C1D2AD5295D00AFE97D /* DataBaseUtils.swift */,
+			);
+			path = DatabaseManager;
+			sourceTree = "<group>";
+		};
+		92EB8C042AD5206700AFE97D /* SqliteDb */ = {
+			isa = PBXGroup;
+			children = (
+				92EB8C212AD539E800AFE97D /* DemoDataBase.db */,
+			);
+			path = SqliteDb;
+			sourceTree = "<group>";
+		};
+		92EB8C0B2AD5289000AFE97D /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				92EB8C0E2AD528C500AFE97D /* FMDatabase.h */,
+				92EB8C102AD528C600AFE97D /* FMDatabase.m */,
+				92EB8C0F2AD528C500AFE97D /* FMDatabaseAdditions.h */,
+				92EB8C152AD528C800AFE97D /* FMDatabaseAdditions.m */,
+				92EB8C122AD528C600AFE97D /* FMDatabasePool.h */,
+				92EB8C0D2AD528C500AFE97D /* FMDatabasePool.m */,
+				92EB8C162AD528C800AFE97D /* FMDatabaseQueue.h */,
+				92EB8C132AD528C700AFE97D /* FMDatabaseQueue.m */,
+				92EB8C112AD528C600AFE97D /* FMDB.h */,
+				92EB8C172AD528C800AFE97D /* FMResultSet.h */,
+				92EB8C142AD528C700AFE97D /* FMResultSet.m */,
+				92EB8C0C2AD528C400AFE97D /* SqLIteDemoProject-Bridging-Header.h */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		92EB8C232AD54ABF00AFE97D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				92EB8C242AD54AD000AFE97D /* extention */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		92EB8C242AD54AD000AFE97D /* extention */ = {
+			isa = PBXGroup;
+			children = (
+				92EB8C252AD54AEE00AFE97D /* uiViewController+Extention.swift */,
+			);
+			path = extention;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +344,7 @@
 				TargetAttributes = {
 					92A4CE462AD518F30006BCE7 = {
 						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
 					};
 					92A4CE5C2AD518F50006BCE7 = {
 						CreatedOnToolsVersion = 14.1;
@@ -232,6 +382,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92A4CE572AD518F50006BCE7 /* LaunchScreen.storyboard in Resources */,
+				92EB8C222AD539E800AFE97D /* DemoDataBase.db in Resources */,
 				92A4CE542AD518F50006BCE7 /* Assets.xcassets in Resources */,
 				92A4CE522AD518F30006BCE7 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +409,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92A4CE4F2AD518F30006BCE7 /* ViewController.swift in Sources */,
 				92A4CE4B2AD518F30006BCE7 /* AppDelegate.swift in Sources */,
+				92EB8C062AD521B200AFE97D /* UserModel.swift in Sources */,
+				92A4CE852AD51CE70006BCE7 /* UserDataCell.swift in Sources */,
+				92EB8C192AD528C800AFE97D /* FMDatabase.m in Sources */,
+				92EB8C282AD551A300AFE97D /* protocol.swift in Sources */,
+				92EB8C1E2AD5295D00AFE97D /* DataBaseUtils.swift in Sources */,
+				92A4CE822AD51B6E0006BCE7 /* PopUpVc.swift in Sources */,
+				92EB8C1A2AD528C800AFE97D /* FMDatabaseQueue.m in Sources */,
+				92A4CE802AD51B600006BCE7 /* MainVc.swift in Sources */,
+				92EB8C182AD528C800AFE97D /* FMDatabasePool.m in Sources */,
+				92EB8C1B2AD528C800AFE97D /* FMResultSet.m in Sources */,
+				92EB8C262AD54AEE00AFE97D /* uiViewController+Extention.swift in Sources */,
+				92EB8C032AD51FE200AFE97D /* DataBaseManager.swift in Sources */,
 				92A4CE4D2AD518F30006BCE7 /* SceneDelegate.swift in Sources */,
+				92EB8C1C2AD528C800AFE97D /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +598,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -452,6 +616,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = abc.test.SqLIteDemoProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SqLIteDemoProject/Controller/DataBaseFiles/FMDB/SqLIteDemoProject-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,6 +628,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -479,6 +646,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = abc.test.SqLIteDemoProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SqLIteDemoProject/Controller/DataBaseFiles/FMDB/SqLIteDemoProject-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
